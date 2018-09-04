@@ -7,7 +7,7 @@
 |[Toy Shop](https://crisgon.github.io/30Days30Sites/shop/index.html) | [Toy Shop](https://crisgon.github.io/Ux-Experiments/Affordance/shop/)  |
 |[Recipe Site](https://crisgon.github.io/30Days30Sites/recipe/index.html) | [Recipe Site](https://crisgon.github.io/Ux-Experiments/Affordance/recipe/)  |
 
-## Percebpção das cores
+## Percepção das cores
 |Antes da revisão de  UX   |Depois da revisão de UX  |
 |---|---|
 |[Toy Shop](https://crisgon.github.io/30Days30Sites/shop/index.html) | [Toy Shop](https://crisgon.github.io/Ux-Experiments/Percepcao-Das-Cores/shop/index.html)  |
