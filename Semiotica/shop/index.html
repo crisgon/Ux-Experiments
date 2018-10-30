@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Toy Shop</title>
+	<link rel="stylesheet" href="css/main.css">
+
+	<style>
+		.product-name {
+			color: #000;
+			position: absolute;
+			bottom: 100px;
+		}
+
+		.product-price {
+			color: #000;
+		}
+
+		.product-box:hover .product-name {
+			color: #1d94ca;
+			text-decoration: underline;
+		}
+
+	</style>
+</head>
+
+<body>
+	<main class="wrapper">
+		<!-- Header Section -->
+		<header class="header">
+			<nav class="navigation" data-js="nav">
+				<button class="open-nav" data-js="open-nav">
+					<i class="fa fa-bars" aria-label="Open Nav"></i>
+				</button>
+				<button class="close-nav" data-js="close-nav">
+					<i class="fa fa-times" aria-label="Close Nav"></i>
+				</button>
+				<a href="index.html">
+					<img src="images/logo.svg" alt="Logo Geek Store" class="logo">
+				</a>
+				<a href="single.html" class="navigation-link">Actions</a>
+				<a href="single.html" class="navigation-link">Shirts</a>
+				<a href="single.html" class="navigation-link">Cushions</a>
+				<a href="single.html" class="navigation-link">Mugs</a>
+			</nav>
+		</header>
+
+		<!-- Slider Section -->
+		<section class="slider cycle-slideshow" data-cycle-fx=scrollHorz data-cycle-timeout=8000 data-cycle-prev="#prev"
+		 data-cycle-next="#next">
+			<img src="images/slide-1.gif">
+			<img src="images/slide-2.gif">
+			<img src="images/slide-3.gif">
+			<img src="images/slide-4.gif">
+			<span id=prev>
+				<i class="fa fa-chevron-circle-left"></i>
+			</span>
+			<span id=next>
+				<i class="fa fa-chevron-circle-right"></i>
+			</span>
+		</section>
+
+		<!-- Categories Section -->
+
+		<section class="categories">
+			<h2 class="title">Categories</h2>
+			<div class="categories-box">
+				<a href="single.html">Actions</a>
+				<img src="images/goku.png" alt="Action Figure do goku">
+			</div>
+			<div class=" categories-box">
+				<a href="single.html">Shirts</a>
+				<img src="images/capitao.png" alt="Camisa do capitão américa">
+			</div>
+			<div class="categories-box">
+				<a href="single.html">Mugs</a>
+				<img src="images/caneca.png" alt="Caneca do Deadpool">
+			</div>
+			<div class="categories-box">
+				<a href="single.html">Cushions</a>
+				<img src="images/almofada.png" alt="Almofada cogumelo do mario">
+			</div>
+		</section>
+
+		<!--  Products Section-->
+		<section class="products">
+			<h2 class="title title-light">Some products</h2>
+			<a href="product.html">
+				<div class="product-box">
+					<img src="images/shirt.jpg" alt="Shirt">
+					<span class="product-price">R$ 99,99</span>
+					<span class="product-name">Groot T-Shirt</span>
+					<a href="product.html" class="btn">
+						Buy
+						<img src="images/shopping-cart.png" alt="">
+					</a>
+				</div>
+			</a>
+
+			<a href="product.html">
+				<div class="product-box">
+					<img src="images/cushions.jpg" alt="Cushion">
+					<span class="product-price">R$ 99,99</span>
+					<span class="product-name">Harry Potter Cushion</span>
+					<a href="product.html" class="btn">
+						Buy
+						<img src="images/shopping-cart.png" alt="">
+					</a>
+				</div>
+			</a>
+
+			<a href="product.html">
+				<div class="product-box">
+					<img src="images/mug.jpg" alt="Mug">
+					<span class="product-price">R$ 99,99</span>
+					<span class="product-name">GOT Mug</span>
+					<a href="product.html" class="btn">
+						Buy
+						<img src="images/shopping-cart.png" alt="">
+					</a>
+				</div>
+			</a>
+
+			<a href="product.html">
+				<div class="product-box">
+					<img src="images/action.png" alt="Action Figure">
+					<span class="product-price">R$ 99,99</span>
+					<span class="product-name">Action figure One Piece</span>
+					<a href="product.html" class="btn">
+						Buy
+						<img src="images/shopping-cart.png" alt="">
+					</a>
+				</div>
+			</a>
+
+			<a href="#" class="more">More Products <i class="fa fa-plus"></i></a>
+		</section>
+		<!-- Footer Section -->
+
+		<footer class="footer">
+			<div class="offer">
+				<h3 class="offer-title">Receive a discount of up to 50%</h3>
+				<input type="email" placeholder="@email" class="offer-field">
+				<button class="btn">Send <i class="fa fa-paper-plane"></i></button>
+			</div>
+
+			<div class="payments">
+				<h5>Payment methods</h5>
+				<img src="images/pagseguro.png" alt="">
+			</div>
+
+			<p class="credits">
+				Developed by <a href="https://crisgon.github.io" target="_blank">Cristiano Gonçalves</a>
+			</p>
+		</footer>
+	</main>
+
+	<script src="https://use.fontawesome.com/3a8d059f5c.js"></script>
+	<script src="js/nav.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.cycle2.js"></script>
+</body>
+
+</html>
